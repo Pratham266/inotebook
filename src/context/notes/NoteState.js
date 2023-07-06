@@ -2,8 +2,8 @@ import { useState } from "react";
 import NoteContext from "./NoteContext";
 
 const NoteState = (props) => {
-  // const host = "http://localhost:5000";
-  const host = "http://16.170.243.74:5001";
+  // const host = "http://localhost:8000";
+  const host = "http://16.170.243.74:8000";
   const notesInitialState = []
   const [notes, setNotes] = useState(notesInitialState);
 
